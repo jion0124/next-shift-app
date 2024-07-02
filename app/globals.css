@@ -47,3 +47,42 @@
 .text-red {
   color: red !important;
 }
+
+/* スマホ画面向けのスタイル */
+@media (max-width: 768px) {
+  .container {
+    padding: 0;
+  }
+  
+  .table {
+    font-size: 12px; /* テーブルの文字サイズを小さくする */
+  }
+
+  .table thead th, .table tbody td {
+    padding: 5px; /* セルの余白を調整 */
+  }
+
+  .table thead th {
+    font-size: 10px; /* ヘッダーの文字サイズをさらに小さく */
+  }
+  
+  .table tbody td {
+    font-size: 10px; /* セルの文字サイズをさらに小さく */
+  }
+
+  h1 {
+    font-size: 24px; /* タイトルの文字サイズを小さく */
+  }
+
+  .btn {
+    font-size: 14px; /* ボタンの文字サイズを小さく */
+  }
+
+  label {
+    font-size: 12px; /* ラベルの文字サイズを小さく */
+  }
+
+  .text-center {
+    text-align: center; /* 中央揃え */
+  }
+}
